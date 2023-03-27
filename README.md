@@ -12,8 +12,7 @@ Para ejecutar este proyecto, necesitará tener instalado lo siguiente:
 ## Instalación
 
 1. Clone este repositorio en su computadora:
-git clone https://github.com/tu-usuario/autenticacionnodejsmongo.git
-
+https://github.com/Ubyquit/autenticacionnodejsmongo.git
 
 2. Navegue al directorio del proyecto:
 cd autenticacionnodejsmongo
@@ -44,26 +43,14 @@ npm start
 
 ## Estructura del proyecto
 
-.
-├── models/
-│   └── user.js
-├── public/
-│   ├── css/
-│   │   └── main.css
-│   └── js/
-│       └── main.js
-├── routes/
-│   ├── auth.js
-│   └── index.js
-├── views/
-│   ├── login.ejs
-│   ├── register.ejs
-│   └── welcome.ejs
-├── .env
-├── .gitignore
-├── app.js
-├── package-lock.json
-└── package.json
+/node_modules: carpeta generada automáticamente por NPM cuando se instalan las dependencias.
+/src: carpeta que contiene todos los archivos fuente del proyecto.
+/src/models: carpeta que contendrá los modelos de la base de datos MongoDB.
+/src/routes: carpeta que contendrá las rutas de Express para el sistema de autenticación y registro de usuarios.
+/src/views: carpeta que contendrá las vistas HTML y CSS para el formulario de registro e inicio de sesión.
+app.js: archivo principal del proyecto que configura Express y establece la conexión a la base de datos MongoDB.
+.gitignore: archivo que especifica los archivos y carpetas que se deben ignorar en el control de versiones con Git.
+package.json: archivo generado automáticamente por NPM que contiene la información del proyecto y las dependencias.
 
 
 ## Contribuir
