@@ -1,0 +1,29 @@
+{
+    "name": "autenticacionnodejsmongo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.1",
+        "connect-mongodb-session": "^3.1.1",
+        "ejs": "^3.1.6",
+        "express": "^4.17.2",
+        "express-session": "^1.17.2",
+        "mongoose": "^6.2.0",
+        "passport": "^0.6.0"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tu-usuario/autenticacionnodejsmongo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tu-usuario/autenticacionnodejsmongo/issues"
+    },
+    "homepage": "https://github.com/tu-usuario/autenticacionnodejsmongo#readme"
+}
